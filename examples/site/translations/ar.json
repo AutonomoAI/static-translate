@@ -1,0 +1,44 @@
+{
+  "locale": "ar",
+  "direction": "rtl",
+  "pages": [
+    {
+      "source": "public/index.html",
+      "output": "public/ar/index.html",
+      "replacements": [
+        {
+          "selector": "title",
+          "source": "Example site",
+          "target": "موقع تجريبي"
+        },
+        {
+          "selector": "h1",
+          "source": "Welcome",
+          "target": "مرحبًا"
+        },
+        {
+          "selector": ".copy",
+          "source": "Hello",
+          "target": "مرحبًا"
+        },
+        {
+          "selector": ".copy strong",
+          "source": "world",
+          "target": "بالعالم"
+        },
+        {
+          "selector": "input",
+          "attribute": "aria-label",
+          "source": "Search",
+          "target": "ابحث"
+        },
+        {
+          "selector": "input",
+          "attribute": "placeholder",
+          "source": "Search",
+          "target": "ابحث"
+        }
+      ]
+    }
+  ]
+}
